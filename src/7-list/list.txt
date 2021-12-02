@@ -1,0 +1,26 @@
+0️⃣ construct a generic linked list
+1️⃣ the isEmpty method determines whether the list has no head
+2️⃣ the addToHead method sets a node object on the head with this value inside
+3️⃣ if there was a head the addToHead method should set the it as the next node link of the new head
+
+4️⃣ the length property returns zero on empty lists
+4️⃣ the length property returns the number of nodes in the list
+
+5️⃣ the getValueByIndex should return undefined when out of limits
+5️⃣ the getValueByIndex should return the value of the index node being zero for head
+
+6️⃣ the getNodeByIndex should return the node at the position or undefined if not found
+
+🔀 REFACTOR
+
+7️⃣ the addToTail method adds a new node (with the value and no next node linked) to the current last node
+7️⃣ the addToTail method adds a head if no node present
+
+8️⃣ removes the node specified linking previous node to next one if any
+8️⃣ removes the head if no previous node found
+
+8️⃣ updates de length after removing a node
+8️⃣ updates de length after removing the only one node
+
+9️⃣ displayValuesFromIndex gets the stringify values linked by arrows from the node to the tail
+

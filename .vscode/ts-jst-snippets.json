@@ -1,0 +1,34 @@
+{
+  "Jest Describe It": {
+    "prefix": "ab-jst-dit",
+    "body": [
+      "describe('$1', () => {",
+      "  let sut;",
+      "  beforeEach(() => {",
+      "    // Arrange",
+      "    sut = null;",
+      "  });",
+      "  it('should $2', () => {",
+      "    // Act",
+      "    const actual = null;",
+      "    // Assert",
+      "    const expected = null;",
+      "    expect(actual).toStrictEqual(expected);",
+      "  });",
+      "});"
+    ],
+    "description": "Describe It Should with Jest"
+  },
+  "Jest It": {
+    "prefix": "ab-jst-it",
+    "body": [
+      "it('should $2', () => {",
+      "  const sut = null;",
+      "  const actual = null;",
+      "  const expected = null;",
+      "  expect(actual).toBe(expected);",
+      "});"
+    ],
+    "description": "It Should with Jest"
+  }
+}

@@ -1,0 +1,15 @@
+/*
+ * OOP
+ * develop a Year class,
+ * with a method isLeap that returns a bool value
+ * indicating if the year is a leap year or not.
+ */
+
+/*
+ * FP
+ * develop a function isLeap,
+ * that receives a year and returns a bool value
+ * indicating if the year is a leap year or not.
+ */
+
+

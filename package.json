@@ -1,0 +1,36 @@
+{
+  "name": "tdd-typescript-jest",
+  "version": "1.0.0",
+  "description": "Test driven development with Jest and Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burus86/tdd-typescript-jest.git"
+  },
+  "keywords": [
+    "tdd",
+    "typescript",
+    "jest"
+  ],
+  "author": {
+    "name": "Juan J. Gómez Noya",
+    "email": "juanjesus.gomeznoya@gmail.com",
+    "url": "https://github.com/burus86"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/burus86/tdd-typescript-jest/issues"
+  },
+  "homepage": "https://github.com/burus86/tdd-typescript-jest#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.10",
+    "jest": "^27.3.1",
+    "prettier": "^2.5.0",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.5.2"
+  }
+}
